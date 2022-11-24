@@ -10,6 +10,3 @@ def separate(l):
                 odd.append(item)
 
         return odd, even
-
-
-print(separate([1, 2, 3, 4, 5]))
