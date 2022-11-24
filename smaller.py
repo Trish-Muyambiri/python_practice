@@ -9,4 +9,8 @@ def smaller(l, x):
     return less
 
 
-print(smaller([1, 2, 3, 4, 5], 2))
+def lesser(l, x):
+    if l:
+        smaller = [item for item in l if item < x]
+
+    return smaller
