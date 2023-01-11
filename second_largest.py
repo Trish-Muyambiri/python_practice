@@ -15,6 +15,3 @@ def getSecMax(l):
                 slargest = x
 
     return slargest
-
-
-print(getSecMax([10, 10, 7, 11]))
